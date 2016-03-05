@@ -1,1 +1,5 @@
-# Knottapi
+What is localhost? It’s a name and address, usually used by a web browser to find a web server on your computer. Instead of typing myfavoritewebsite.com you type localhost in the URL bar of your web browser. If your computer has a web server, and is configured properly, you will see a basic web page. On Grendel, my ancient iMac, calling up localhost in my browser displays a message, “It works! And unlock!” No idea the last bit — what unlocked?
+
+Localhost like any self-respecting website address also has a unique IP address: typing 127.0.0.1 in the URL bar of your web browser displays the same results as typing in localhost. What’s an IP address? IP stands for internet protocol which refers to a set of standards (protocols) used to communicate on the internet. Imagine if every computer on the internet spoke a different language. Because computers transfer data with the same standards, data moves quickly and efficiently. Your web pages and email show up as you (hope and) expect.
+
+The difference between localhost and any URL like myfavoritewebsite.com is localhost traffic never travels on a network. Data is transmitted within your computer. People typically use localhost to do web-based software development on their computer then transfer files to a remote web server for test and launch.
